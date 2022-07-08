@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #A3140A;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.nav ul li {
+  padding: 5px;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.nav ul li a:hover {
+  opacity: 1;
+}
+
+.tarjeta {
+  background-color: #FF4538;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 15px;
+}
+.tarjeta p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+  background-color: #A3140A;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+}
+.post h5 {
+  font-size: 32px;
+}
+.post p {
+  font-size: 20px;
+}
+.post button {
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 15px;
+  background-color: #F0291C;
+  margin-top: 5px;
+}
+
+.footer {
+  background-color: #A3140A;
+}
